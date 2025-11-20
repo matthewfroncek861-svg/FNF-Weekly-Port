@@ -15,18 +15,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@main
 
-      - name: Setup Haxe & Neko
+      - name: Setup Haxe
         uses: krdlab/setup-haxe@master
         with:
           haxe-version: 4.3.7
-          neko-version: 2.4.0
-
-      - name: Verify Haxe & Neko
-        run: |
-          haxe --version
-          neko --version
-          where haxelib || where haxe || echo "haxelib/haxe not found on PATH"
-        shell: cmd
 
       - name: Install Haxelib libraries
         run: |
