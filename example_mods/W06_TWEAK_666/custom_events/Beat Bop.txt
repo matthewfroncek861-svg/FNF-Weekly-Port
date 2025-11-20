@@ -1,3 +1,0 @@
-Will make a hard coded version later
-
-Makes the camera bop on beat hit instead of section hit

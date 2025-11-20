@@ -1,2 +1,0 @@
-value1 = lyrics to display
-value2 = icon to display, if blank then it won't display one
