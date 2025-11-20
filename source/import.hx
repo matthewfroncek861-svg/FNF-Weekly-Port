@@ -70,8 +70,6 @@ import flixel.addons.transition.FlxTransitionableState;
 import meta.data.Discord;
 #end
 
-import Init;
-
 import hxvlc.flixel.*;
 
 import meta.data.Paths;
